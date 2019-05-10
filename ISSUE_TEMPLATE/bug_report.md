@@ -14,9 +14,11 @@ vulnerability.**, and instead contact us privately at
 security@financial-cloud.com - we will deal with your issue as a matter of
 priority.
 
-### Version information
+### Version & environment information
 
-Which version are you having issues with?
+- Which version are you having issues with?
+- Which Operating System are you running the code on?
+- Is there any other environment-specific information we should know about?
 
 ### Describe the bug
 
