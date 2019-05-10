@@ -27,8 +27,8 @@ everything required for launch:
 
 ### Deploy Notes
 
-Notes regarding deployment the contained body of work.  These should note any
-db migrations, etc.
+Notes regarding release the contained body of work. These should note any
+kind of migration required, etc.
 
 ### Steps to Test or Reproduce
 
@@ -44,7 +44,7 @@ npm install; npm test
 
 ### Breaking changes
 
-If there are any breaking changes, list general components of the SDK that this PR will affect:
+If there are any breaking changes, list general components that this PR will affect:
 
 - [insert breaking change info here]
 
@@ -58,6 +58,6 @@ This section is just for reviewers, but it gives a good indication of what revie
 - [ ] Do the tests test the right parts of the codebase?
 - [ ] Might any of the changes cause subtle compatibility issues?
 - [ ] Does the code meet our style guide?
-- [ ] Has the version number been revised according to semver?
+- [ ] Has the version number been revised according to [semantic versioning](https://semver.org)?
 - [ ] Has the changelog been updated accurately?
 - [ ] Is now a good time to merge this PR?
