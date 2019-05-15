@@ -21,9 +21,14 @@ Once your PR is code-complete, go through this list to make sure you've done
 everything required for launch:
 
 - [ ] Written tests
-- [ ] Added documentation
+- [ ] Added documentation into the [Company Wiki](https://wiki.financial-cloud.com)
 - [ ] Updated changelog according to [Keep a Changelog 1.0.0](https://keepachangelog.com/en/1.0.0/)
 - [ ] Bumped version number according to [Semantic Versioning](https://semver.org)
+
+### Documentation
+
+Link to the relevant page and line in your documentation to allow others to see that changes are being reflected in the wiki.
+If you are unable to link to a specific section find the relevant line in the [Wiki Repository](https://github.com/financial-cloud/wiki).
 
 ### Deploy Notes
 
@@ -61,3 +66,4 @@ This section is just for reviewers, but it gives a good indication of what revie
 - [ ] Has the version number been revised according to [semantic versioning](https://semver.org)?
 - [ ] Has the changelog been updated accurately?
 - [ ] Is now a good time to merge this PR?
+- [ ] Have the changes made as a result of this pull request been documented in the [Company Wiki](https://wiki.financial-cloud.com)?
