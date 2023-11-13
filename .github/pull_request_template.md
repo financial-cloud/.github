@@ -5,7 +5,7 @@ why are you making this pull request?
 #### Examples
 
 ```
-This Pr fixes bug https://fcloud.atlassian.net/browse/FINC-123
+This Pr fixes bug https://fcloud-company.monday.com/boards/1315295767/pulses/1316778205
 
 ```
 
