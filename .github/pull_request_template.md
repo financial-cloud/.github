@@ -44,11 +44,6 @@ Why were the breaking changes needed? Which teams / services are affected? -->
 - [ ] Documentation
 - [ ] Deployment sections below filled in (or marked N/A)
 
-## Software versions
-
-<!-- [monday: Software versions] Service and version this PR releases, e.g. be-timelines 2.0.4 -->
-
-
 ## Database changes
 
 <!-- [monday: Database changes] System tables (new or updated rows and their values) and new collections (name and seed data), e.g.
