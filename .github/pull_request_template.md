@@ -1,8 +1,12 @@
 <!--
-Sections marked [monday] are synced to the linked ticket on the Monday Tasks board
-when the PR is opened and every time this description is edited.
+Sections marked [monday] are added to the matching field on the linked Monday ticket
+when the PR is opened and every time this description is edited. Other PRs on the same
+ticket (e.g. another repo) are kept - each PR's text sits on its own line.
+Software versions is filled automatically from package.json.
 Keep the "## " headings exactly as they are - they are how the sync finds each section.
-Write N/A in a [monday] section that doesn't apply; it will be left empty on the ticket.
+Write N/A in a [monday] section that doesn't apply.
+Put the Task ID in the branch name (e.g. fix/3305431211-uploads-lambda) or PR title so the
+PR also shows in the ticket's Git UI.
 -->
 
 ## Monday ticket
@@ -13,7 +17,7 @@ https://fcloud-company.monday.com/boards/5097440571/pulses/3306069647  or  33060
 
 ## Summary
 
-<!-- [monday: posted as an update on the ticket] Why are you making this pull request? e.g.
+<!-- [monday: PR summary] Why are you making this pull request? e.g.
 - this PR fixes the sort not being applied when using the query
 - a bug causes the SDK to have unhandled promise rejections, this PR updates `section` to correctly handle errors
 - this PR refactors `section` to make it more maintainable -->
@@ -21,7 +25,6 @@ https://fcloud-company.monday.com/boards/5097440571/pulses/3306069647  or  33060
 
 ## All changes
 
-<!-- [monday: posted as an update on the ticket] -->
 - **Added:**
 - **Updated:**
 - **Removed:**
@@ -29,7 +32,7 @@ https://fcloud-company.monday.com/boards/5097440571/pulses/3306069647  or  33060
 
 ## Breaking changes
 
-<!-- [monday: posted as an update on the ticket] Remove or write N/A if there are none.
+<!-- Remove or write N/A if there are none.
 Why were the breaking changes needed? Which teams / services are affected? -->
 
 
