@@ -12,16 +12,12 @@ PR also shows in the monday ticket's Git UI.
 
 ## Monday ticket
 
-<!-- Required. Paste the Monday item link or its Task ID.
+<!-- Required. Paste the full Monday ticket link.
 
-#### Examples
+#### Example
 
 ```
 https://fcloud-company.monday.com/boards/5097440571/pulses/3306069647
-```
-
-```
-3306069647
 ```
 -->
 
@@ -97,6 +93,7 @@ fe-customer-portal and fe-online-helpdesk need the matching release.
 
 ```
 System tables: add `FCCORE_preferredContactTime` to `systemtables` (level: customer, _collection: crm)
+System tables: update `FCCORE_preferredContactTime` in `systemtables` - change `level` from customer to client
 New collections: `callflowreasons` - seed with the default call flow reasons
 ```
 -->
@@ -117,12 +114,13 @@ New collections: `callflowreasons` - seed with the default call flow reasons
 
 ## Scripts
 
-<!-- [monday: Scripts] Migration / one-off scripts that must be run, where they live and when to run them.
+<!-- [monday: Scripts] Migration / one-off scripts that must be run and when to run them.
+Link to the script in a GitHub repository, not a file on your machine.
 
 #### Example
 
 ```
-`scripts/backfill-preferred-contact-time.js` - run once on each environment after deploy
+https://github.com/financial-cloud/fc-migrations/blob/main/migrations/backfill-preferred-contact-time.ts - run once on each environment after deploy
 ```
 -->
 
