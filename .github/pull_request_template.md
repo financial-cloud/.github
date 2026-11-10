@@ -48,8 +48,9 @@ this PR fixes the sort not being applied when using the query
 
 ## Breaking changes
 
-<!-- Remove or write N/A if there are none.
+<!-- [monday: Breaking change] Write N/A if there are none.
 Why were the breaking changes needed? Which teams / services are affected?
+The checkboxes below stay on the PR, they aren't sent to Monday.
 
 #### Example
 
